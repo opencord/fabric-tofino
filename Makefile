@@ -14,7 +14,7 @@ onos_curl := curl --fail -sSL --user onos:rocks --noproxy localhost
 pipeconf_app_name := org.opencord.fabric-tofino
 pipeconf_app_version := 2.2.1-SNAPSHOT
 
-tofino_compile := ./src/main/p4/tofino-compile.sh
+p4-build := ./src/main/p4/build.sh
 
 .PHONY: pipeconf
 
@@ -23,22 +23,22 @@ build: clean $(PROFILES) pipeconf
 all: fabric fabric-bng fabric-spgw fabric-int fabric-spgw-int
 
 fabric:
-	@${tofino_compile} fabric ""
+	@${p4-build} fabric ""
 
 fabric-simple:
-	@${tofino_compile} fabric-simple "-DWITH_SIMPLE_NEXT"
+	@${p4-build} fabric-simple "-DWITH_SIMPLE_NEXT"
 
 fabric-bng:
-	@${tofino_compile} fabric-bng "-DWITH_BNG -DWITH_DOUBLE_VLAN_TERMINATION -DWITHOUT_XCONNECT"
+	@${p4-build} fabric-bng "-DWITH_BNG -DWITH_DOUBLE_VLAN_TERMINATION -DWITHOUT_XCONNECT"
 
 fabric-int:
-	@${tofino_compile} fabric-int "-DWITH_INT_SOURCE -DWITH_INT_TRANSIT"
+	@${p4-build} fabric-int "-DWITH_INT_SOURCE -DWITH_INT_TRANSIT"
 
 fabric-spgw:
-	@${tofino_compile} fabric-spgw "-DWITH_SPGW"
+	@${p4-build} fabric-spgw "-DWITH_SPGW"
 
 fabric-spgw-int:
-	@${tofino_compile} fabric-spgw-int "-DWITH_SPGW -DWITH_INT_SOURCE -DWITH_INT_TRANSIT"
+	@${p4-build} fabric-spgw-int "-DWITH_SPGW -DWITH_INT_SOURCE -DWITH_INT_TRANSIT"
 
 # Reuse the same container to persist mvn repo cache.
 _create_mvn_container:

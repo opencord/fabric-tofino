@@ -44,7 +44,7 @@ import static org.osgi.framework.wiring.BundleWiring.LISTRESOURCES_RECURSE;
 import static org.slf4j.LoggerFactory.getLogger;
 
 /**
- * Component responsible of registering Tofino-specific versions
+ * Component responsible for registering Tofino-specific versions
  * of the fabric pipeconf at app activation.
  */
 @Component(immediate = true)

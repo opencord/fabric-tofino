@@ -26,7 +26,7 @@ packaging. The following steps provide instructions on how to generate an oar
 package that includes a compiled version of `fabric.p4` that works on Tofino.
 
 * `src/main/java`: contains Java code that implements the ONOS app responsible
-  of registering the Tofino-enabled pipeconfs in ONOS;
+  for registering the Tofino-enabled pipeconfs in ONOS;
 * `src/main/p4`: contains code to compile fabric.p4 for Tofino.
 
 To learn more about pipeconfs and how ONOS supports P4-programmable devices:

@@ -34,7 +34,7 @@ OTHER_PP_FLAGS=$2
 
 # PWD is the directory where this script is called from (should be the root of
 # this repo).
-P4C_OUT=${PWD}/p4c-out/${PROFILE}
+P4C_OUT=${PWD}/tmp/${PROFILE}
 
 # DIR is this file directory.
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -61,7 +61,7 @@ function do_p4c() {
   mkdir -p ${P4C_OUT}/${pltf}
   (
     set -x
-    $P4C_CMD --arch v1model -g \
+    $P4C_CMD --arch v1model -g  --create-graphs --verbose 2 \
       -o ${P4C_OUT}/${pltf} -I ${P4_SRC_DIR} \
       ${pp_flags} ${OTHER_PP_FLAGS} \
       --p4runtime-files ${P4C_OUT}/${pltf}/p4info.txt \
