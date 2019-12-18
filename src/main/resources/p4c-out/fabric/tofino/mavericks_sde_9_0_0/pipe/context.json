@@ -1,5 +1,5 @@
 {
-  "build_date": "Tue Dec 17 02:24:53 2019",
+  "build_date": "Wed Dec 18 02:54:49 2019",
   "schema_version": "1.8.4",
   "compiler_version": "9.0.0",
   "target": "tofino",
@@ -64972,7 +64972,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 1,
                         "lsb_mem_word_idx": 4,
                         "msb_mem_word_idx": 4,
@@ -64981,7 +64981,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_dst",
+                        "field_name": "eth_src",
                         "lsb_mem_word_offset": 9,
                         "lsb_mem_word_idx": 4,
                         "msb_mem_word_idx": 4,
@@ -64990,7 +64990,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_dst",
+                        "field_name": "eth_src",
                         "lsb_mem_word_offset": 17,
                         "lsb_mem_word_idx": 4,
                         "msb_mem_word_idx": 4,
@@ -64999,7 +64999,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 25,
                         "lsb_mem_word_idx": 4,
                         "msb_mem_word_idx": 4,
@@ -65008,7 +65008,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_dst",
+                        "field_name": "eth_src",
                         "lsb_mem_word_offset": 33,
                         "lsb_mem_word_idx": 4,
                         "msb_mem_word_idx": 4,
@@ -65044,7 +65044,7 @@
                         "field_width": 16
                       },
                       {
-                        "field_name": "eth_dst",
+                        "field_name": "eth_src",
                         "lsb_mem_word_offset": 1,
                         "lsb_mem_word_idx": 2,
                         "msb_mem_word_idx": 2,
@@ -65098,7 +65098,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 25,
                         "lsb_mem_word_idx": 1,
                         "msb_mem_word_idx": 1,
@@ -65107,7 +65107,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 33,
                         "lsb_mem_word_idx": 1,
                         "msb_mem_word_idx": 1,
@@ -65116,7 +65116,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_dst",
+                        "field_name": "eth_src",
                         "lsb_mem_word_offset": 1,
                         "lsb_mem_word_idx": 0,
                         "msb_mem_word_idx": 0,
@@ -65161,7 +65161,7 @@
                         "field_width": 1
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 41,
                         "lsb_mem_word_idx": 5,
                         "msb_mem_word_idx": 5,
@@ -65170,7 +65170,7 @@
                         "field_width": 4
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 41,
                         "lsb_mem_word_idx": 4,
                         "msb_mem_word_idx": 4,
@@ -65179,7 +65179,7 @@
                         "field_width": 4
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 41,
                         "lsb_mem_word_idx": 3,
                         "msb_mem_word_idx": 3,
@@ -65188,7 +65188,7 @@
                         "field_width": 4
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 41,
                         "lsb_mem_word_idx": 2,
                         "msb_mem_word_idx": 2,
@@ -65711,7 +65711,7 @@
           "field_name": "l4_dport"
         },
         {
-          "name": "eth_src",
+          "name": "eth_dst",
           "global_name": "hdr.ethernet.dst_addr",
           "start_bit": 0,
           "bit_width": 48,
@@ -65723,7 +65723,7 @@
           "field_name": "dst_addr"
         },
         {
-          "name": "eth_dst",
+          "name": "eth_src",
           "global_name": "hdr.ethernet.src_addr",
           "start_bit": 0,
           "bit_width": 48,
@@ -83953,6 +83953,6 @@
       ]
     }
   ],
-  "run_id": "e9a6f1bd8eab227c",
+  "run_id": "b48e492498200795",
   "driver_options": { "hash_parity_enabled": false, "high_availability_enabled": true }
 }

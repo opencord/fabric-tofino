@@ -1,0 +1,56 @@
+# fabric.p4 changes included in this release (from ONOS repository)
+
+6085585ef7 Fixes to fabric.p4 pipeline
+dd0568b367 Small fixes and improvements on fabric.p4 - setting s_tag and c_tag for BNG as early as possible in the pipeline - ingress_port_vlan was matching on inner_vlan_tag but that field could be not present
+f4d1bc6eec Added bytes in BNG upstream counters
+39b808bdd8 [ONOS-7808] Support P4Runtime default table entries
+693d76f189 eth_type moved outside ethernet header in fabric.p4
+36d5e7a233 Support creation of vendor-specific versions of the fabric pipeconf
+77654f9e5c Added ethertype QinQ when double VLAN tagged packets
+7c3a002000 Improvement in fabric.p4 and bng.p4
+e22b574275 Improve fabric.p4 with BNG support
+3b7a21b6c2 Fix to metadata copied to egress
+01ca2ab27d Added support for clone session on fabric.p4
+4d8785b5b1 First stab at BNG support in fabric.p4
+9b607dab1c Update P4 programs to compile with most recent p4c
+3032b87e07 Fix missing IPv6 table size in fabric.p4
+70e816b05a Support compiling fabric.p4 with arbitrary table sizes
+b5324e7168 Improve fabric.p4 to reduce pipeline resources and refactor pipeconf impl
+8e5818dc65 In fabric.p4 do not parse int_data if sink is not enabled
+fa42158937 Refactored INT service impl to support multi-instance ONOS and fabric.p4
+79a3a31aec Refactor fabric.p4 INT support to allow compilation on more P4 targets
+0c8d73ea08 Use P4 port counters only for BMv2 pipeconf in fabric.p4
+cd03f07fb7 Implement NOP in routing v4 table
+8d2d1b2cb1 Avoid egress processing for controller packet-in/out in fabric.p4
+384aea29c6 Support IPv4 multicast in P4 fabric pipeline
+8a715f84c5 Add default VLAN 4094 tag to all untagged traffic in fabric.p4
+cf696e55d3 NoAction in ACL should be mapped to NOP
+9b0171bc34 Fixed spgw.p4 decapping GTP packets not meant to be decapped
+ed478dc4bd Integrating INT into fabric pipeline
+8235a1a6b0 Minor refactor fabric.p4
+1e8843f8e3 ONOS-7251 ONOS-7264 Support for clone to CPU action in fabric.p4
+a5400afad6 ONOS-7744 ONOS-7742 Don't send pkt on ingress port and always decrement TTL in fabric.p4
+47eac89eb0 Refactor fabric.p4
+971fb7fd1f ONOS-7251 - Initial implementation of fabric.p4 L2 broadcast feature.
+8a51743927 Removed fabric.p4 data plane test files
+34af3168f4 Fix incorrect defined boolean value for fabric.p4
+35d9b333f8 Support compiling fabric.p4 with non-standard bool declarations
+20f9e7b406 [ONOS-7285][ONOS-7263] VLAN support by fabric.p4
+274daef03e Minor bugfix to spgw.p4
+a106140b9c Made multicast support optional in fabric.p4
+33e85c04bc Made GTP UPD checksum update optinal in SPGW
+3d3956d167 Fix bugs from fabric.p4
+b531b6889c Minor clean-up of fabric pipeline
+f87dc2ebe0 Test P4 program and data for SPGW
+b757dbc4eb Fixed double-extraction issue in spgw parser
+ed88f2b6fe Do not compile with IPv6 support in fabric.p4 by default
+14cde40599 Fixed downlink processing of spgw.p4
+b81f4be168 Initial integration of SPGW in fabric.p4
+bd46d05410 Fix VLAN and MPLS problem for fabric.p4
+3a5731e32d Minor refactoring for fabric.p4
+c6844f56ce Refactor fabric.p4 and pipeliner
+1d84267c5b Minor refactoring for fabric.p4
+f55eaa8112 [ONOS-7255] Remove next id mapping table from fabric.p4
+1b154bd81c [ONOS-7242] Support MPLS by fabric.p4 pipeliner
+f73a553a04 [ONOS-7238] fix ICMP checksum error of fabric.p4
+be3420529a [ONOS-7128] Initial commit of fabric.p4

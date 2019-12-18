@@ -1,5 +1,5 @@
 {
-  "build_date": "Tue Dec 17 02:25:46 2019",
+  "build_date": "Wed Dec 18 02:55:48 2019",
   "schema_version": "1.8.4",
   "compiler_version": "9.0.0",
   "target": "tofino",
@@ -75959,7 +75959,7 @@
                         "field_width": 2
                       },
                       {
-                        "field_name": "eth_dst",
+                        "field_name": "eth_src",
                         "lsb_mem_word_offset": 1,
                         "lsb_mem_word_idx": 5,
                         "msb_mem_word_idx": 5,
@@ -75968,7 +75968,7 @@
                         "field_width": 16
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 17,
                         "lsb_mem_word_idx": 5,
                         "msb_mem_word_idx": 5,
@@ -75986,7 +75986,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_dst",
+                        "field_name": "eth_src",
                         "lsb_mem_word_offset": 1,
                         "lsb_mem_word_idx": 4,
                         "msb_mem_word_idx": 4,
@@ -76049,7 +76049,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 9,
                         "lsb_mem_word_idx": 2,
                         "msb_mem_word_idx": 2,
@@ -76067,7 +76067,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_dst",
+                        "field_name": "eth_src",
                         "lsb_mem_word_offset": 33,
                         "lsb_mem_word_idx": 2,
                         "msb_mem_word_idx": 2,
@@ -76076,7 +76076,7 @@
                         "field_width": 8
                       },
                       {
-                        "field_name": "eth_dst",
+                        "field_name": "eth_src",
                         "lsb_mem_word_offset": 1,
                         "lsb_mem_word_idx": 1,
                         "msb_mem_word_idx": 1,
@@ -76166,7 +76166,7 @@
                         "field_width": 4
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 41,
                         "lsb_mem_word_idx": 5,
                         "msb_mem_word_idx": 5,
@@ -76175,7 +76175,7 @@
                         "field_width": 4
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 41,
                         "lsb_mem_word_idx": 4,
                         "msb_mem_word_idx": 4,
@@ -76184,7 +76184,7 @@
                         "field_width": 4
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 41,
                         "lsb_mem_word_idx": 3,
                         "msb_mem_word_idx": 3,
@@ -76193,7 +76193,7 @@
                         "field_width": 4
                       },
                       {
-                        "field_name": "eth_src",
+                        "field_name": "eth_dst",
                         "lsb_mem_word_offset": 41,
                         "lsb_mem_word_idx": 2,
                         "msb_mem_word_idx": 2,
@@ -76707,7 +76707,7 @@
           "field_name": "l4_dport"
         },
         {
-          "name": "eth_src",
+          "name": "eth_dst",
           "global_name": "hdr.ethernet.dst_addr",
           "start_bit": 0,
           "bit_width": 48,
@@ -76719,7 +76719,7 @@
           "field_name": "dst_addr"
         },
         {
-          "name": "eth_dst",
+          "name": "eth_src",
           "global_name": "hdr.ethernet.src_addr",
           "start_bit": 0,
           "bit_width": 48,
@@ -93696,6 +93696,13 @@
               "dst": { "type": "phv", "name": "ig_intr_md_for_tm.ucast_egress_port" },
               "dst_mask": { "type": "immediate", "name": "511" },
               "src1": { "type": "immediate", "name": "320" }
+            },
+            {
+              "name": "ModifyFieldPrimitive",
+              "operation": "set",
+              "dst": { "type": "phv", "name": "ig_intr_md_for_tm.mcast_grp_a" },
+              "dst_mask": { "type": "immediate", "name": "65535" },
+              "src1": { "type": "immediate", "name": "0" }
             }
           ],
           "indirect_resources": [],
@@ -111245,6 +111252,6 @@
       ]
     }
   ],
-  "run_id": "851e8acf575ce4b6",
+  "run_id": "aa3f0a59bf54060a",
   "driver_options": { "hash_parity_enabled": false, "high_availability_enabled": true }
 }

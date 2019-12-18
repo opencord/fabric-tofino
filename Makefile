@@ -12,13 +12,12 @@ onos_url := http://${ONOS_HOST}:8181/onos
 onos_curl := curl --fail -sSL --user onos:rocks --noproxy localhost
 
 pipeconf_app_name := org.opencord.fabric-tofino
-pipeconf_app_version := 2.2.1-SNAPSHOT
 
 p4-build := ./src/main/p4/build.sh
 
 .PHONY: pipeconf
 
-build: clean $(PROFILES) pipeconf
+build: clean $(PROFILES) pipeconf p4-changelog
 
 all: fabric fabric-bng fabric-spgw fabric-int fabric-spgw-int
 
@@ -40,6 +39,9 @@ fabric-spgw:
 fabric-spgw-int:
 	@${p4-build} fabric-spgw-int "-DWITH_SPGW -DWITH_INT_SOURCE -DWITH_INT_TRANSIT"
 
+p4-changelog:
+	./src/main/p4/gen_changelog.sh > P4_CHANGELOG
+
 # Reuse the same container to persist mvn repo cache.
 _create_mvn_container:
 	@if ! docker container ls -a --format '{{.Names}}' | grep -q ${mvn_container} ; then \
@@ -59,7 +61,7 @@ pipeconf-install:
 	$(info *** Installing and activating pipeconf app in ONOS at ${ONOS_HOST}...)
 	${onos_curl} -X POST -HContent-Type:application/octet-stream \
 		'${onos_url}/v1/applications?activate=true' \
-		--data-binary @target/fabric-tofino-${pipeconf_app_version}.oar
+		--data-binary @target/fabric-tofino-*.oar
 	@echo
 
 pipeconf-uninstall:
