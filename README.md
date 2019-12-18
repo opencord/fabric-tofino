@@ -3,10 +3,9 @@
 This repository contains instructions and scripts to compile and use
 `fabric.p4` on Intel/Barefoot Tofino-enabled switches.
 
-[fabric.p4][fabric.p4] is a P4 program distributed as part of ONOS,
-designed to work with [Trellis](trellis), a set
-of SDN applications running on top of ONOS to provide the control plane for an
-IP fabric based on MPLS segment-routing.
+[fabric.p4][fabric.p4] is a P4 program distributed as part of ONOS, designed to
+work with [Trellis](trellis), a set of SDN applications running on top of ONOS
+to provide the control plane for an IP fabric based on MPLS segment-routing.
 
 To use ONOS to control a Tofino-enabled switch, you will need to run the
 [Stratum][stratum] agent on the switch.
