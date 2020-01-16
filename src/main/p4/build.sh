@@ -51,6 +51,10 @@ fi
 
 SDE_VER=$( ${P4C_CMD} --version | cut -d' ' -f2 )
 
+if [ ${SDE_VER} = "9.0.0" ]; then
+  p4c_flags="--auto-init-metadata"
+fi
+
 # shellcheck disable=SC2086
 function do_p4c() {
   pltf="$1_sde_${SDE_VER//./_}"
@@ -64,6 +68,7 @@ function do_p4c() {
     $P4C_CMD --arch v1model -g  --create-graphs --verbose 2 \
       -o ${P4C_OUT}/${pltf} -I ${P4_SRC_DIR} \
       ${pp_flags} ${OTHER_PP_FLAGS} \
+      ${p4c_flags} \
       --p4runtime-files ${P4C_OUT}/${pltf}/p4info.txt \
       ${DIR}/fabric-tofino.p4
   )

@@ -1,5 +1,5 @@
 {
-  "build_date": "Wed Dec 18 02:56:20 2019",
+  "build_date": "Thu Jan 16 18:59:42 2020",
   "schema_version": "1.8.4",
   "compiler_version": "9.0.0",
   "target": "tofino",
@@ -719,20 +719,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -753,20 +739,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -1118,6 +1090,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -1246,6 +1232,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -1397,20 +1397,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -1568,6 +1554,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -4770,20 +4770,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -4804,20 +4790,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -5169,6 +5141,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -5297,6 +5283,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -5448,20 +5448,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -5619,6 +5605,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -8821,20 +8821,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -8855,20 +8841,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -9220,6 +9192,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -9348,6 +9334,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -9499,20 +9499,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -9670,6 +9656,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -12872,20 +12872,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -12906,20 +12892,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -13271,6 +13243,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -13399,6 +13385,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -13550,20 +13550,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -13721,6 +13707,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -16923,20 +16923,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -16957,20 +16943,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -17322,6 +17294,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -17450,6 +17436,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -17601,20 +17601,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -17772,6 +17758,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -20974,20 +20974,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -21008,20 +20994,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -21373,6 +21345,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -21501,6 +21487,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -21652,20 +21652,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -21823,6 +21809,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -25025,20 +25025,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -25059,20 +25045,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -25424,6 +25396,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -25552,6 +25538,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -25703,20 +25703,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -25874,6 +25860,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -29076,20 +29076,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -29110,20 +29096,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -29475,6 +29447,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -29603,6 +29589,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -29754,20 +29754,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -29925,6 +29911,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -33127,20 +33127,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -33161,20 +33147,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -33526,6 +33498,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -33654,6 +33640,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -33805,20 +33805,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -33976,6 +33962,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -37178,20 +37178,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -37212,20 +37198,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -37577,6 +37549,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -37705,6 +37691,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -37856,20 +37856,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -38027,6 +38013,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -41229,20 +41229,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -41263,20 +41249,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -41628,6 +41600,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -41756,6 +41742,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -41907,20 +41907,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -42078,6 +42064,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -45280,20 +45280,6 @@
           "container_type": "normal",
           "records": [
             {
-              "position_offset": 46,
-              "field_name": "fabric_metadata.skip_forwarding",
-              "field_msb": 0,
-              "field_lsb": 0,
-              "live_start": "parser",
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 0,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
-            {
               "position_offset": 10,
               "field_name": "compiler_generated_meta.mirror_source",
               "field_msb": 7,
@@ -45314,20 +45300,6 @@
           "phv_number": 66,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 22,
-              "field_name": "fabric_metadata.fwd_type",
-              "field_msb": 2,
-              "field_lsb": 0,
-              "live_start": 0,
-              "live_end": 2,
-              "mutually_exclusive_with": [],
-              "field_width": 1,
-              "phv_msb": 2,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 169,
               "field_name": "ig_intr_md_for_dprsr.drop_ctl",
@@ -45679,6 +45651,20 @@
               "is_pov": false
             },
             {
+              "position_offset": 46,
+              "field_name": "fabric_metadata.skip_forwarding",
+              "field_msb": 0,
+              "field_lsb": 0,
+              "live_start": "parser",
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 0,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
               "position_offset": 47,
               "field_name": "fabric_metadata.skip_next",
               "field_msb": 0,
@@ -45807,6 +45793,20 @@
               "mutually_exclusive_with": [],
               "field_width": 1,
               "phv_msb": 3,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 22,
+              "field_name": "fabric_metadata.fwd_type",
+              "field_msb": 2,
+              "field_lsb": 0,
+              "live_start": 0,
+              "live_end": 2,
+              "mutually_exclusive_with": [],
+              "field_width": 1,
+              "phv_msb": 2,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -45958,20 +45958,6 @@
           "phv_number": 131,
           "container_type": "normal",
           "records": [
-            {
-              "position_offset": 52,
-              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
-              "field_msb": 9,
-              "field_lsb": 0,
-              "live_start": 2,
-              "live_end": 3,
-              "mutually_exclusive_with": [],
-              "field_width": 2,
-              "phv_msb": 9,
-              "phv_lsb": 0,
-              "is_compiler_generated": false,
-              "is_pov": false
-            },
             {
               "position_offset": 8,
               "field_name": "compiler_generated_meta.mirror_id",
@@ -46129,6 +46115,20 @@
               "mutually_exclusive_with": [],
               "field_width": 2,
               "phv_msb": 15,
+              "phv_lsb": 0,
+              "is_compiler_generated": false,
+              "is_pov": false
+            },
+            {
+              "position_offset": 52,
+              "field_name": "forwarding_routing_v4__metadata.forwarding_routing_v4_partition_index",
+              "field_msb": 9,
+              "field_lsb": 0,
+              "live_start": 2,
+              "live_end": 3,
+              "mutually_exclusive_with": [],
+              "field_width": 2,
+              "phv_msb": 9,
               "phv_lsb": 0,
               "is_compiler_generated": false,
               "is_pov": false
@@ -62914,10 +62914,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 4,
+                        "field_bit": 0,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 16
+                        "hash_match_group_bit": 12
                       },
                       {
                         "field_bit": 10,
@@ -62968,10 +62968,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 5,
+                        "field_bit": 1,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 17
+                        "hash_match_group_bit": 13
                       },
                       {
                         "field_bit": 11,
@@ -62998,10 +62998,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 6,
+                        "field_bit": 2,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 18
+                        "hash_match_group_bit": 14
                       },
                       {
                         "field_bit": 10,
@@ -63046,10 +63046,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 7,
+                        "field_bit": 3,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 19
+                        "hash_match_group_bit": 15
                       },
                       {
                         "field_bit": 10,
@@ -63088,10 +63088,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 8,
+                        "field_bit": 4,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 20
+                        "hash_match_group_bit": 16
                       },
                       {
                         "field_bit": 10,
@@ -63136,10 +63136,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 9,
+                        "field_bit": 5,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 21
+                        "hash_match_group_bit": 17
                       },
                       {
                         "field_bit": 10,
@@ -63172,6 +63172,12 @@
                   {
                     "bits_to_xor": [
                       {
+                        "field_bit": 6,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 18
+                      },
+                      {
                         "field_bit": 10,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
@@ -63212,12 +63218,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 31
-                      },
-                      {
-                        "field_bit": 0,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 36
                       }
                     ],
                     "hash_bit": 6,
@@ -63226,6 +63226,12 @@
                   {
                     "bits_to_xor": [
                       {
+                        "field_bit": 7,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 19
+                      },
+                      {
                         "field_bit": 11,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
@@ -63248,12 +63254,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 30
-                      },
-                      {
-                        "field_bit": 1,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 37
                       }
                     ],
                     "hash_bit": 7,
@@ -63261,6 +63261,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 8,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 20
+                      },
                       {
                         "field_bit": 10,
                         "field_name": "mpls_label",
@@ -63284,12 +63290,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 31
-                      },
-                      {
-                        "field_bit": 2,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 38
                       }
                     ],
                     "hash_bit": 8,
@@ -63297,6 +63297,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 9,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 21
+                      },
                       {
                         "field_bit": 14,
                         "field_name": "mpls_label",
@@ -63308,12 +63314,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 31
-                      },
-                      {
-                        "field_bit": 3,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 39
                       }
                     ],
                     "hash_bit": 9,
@@ -63321,6 +63321,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 9,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 21
+                      },
                       {
                         "field_bit": 10,
                         "field_name": "mpls_label",
@@ -63350,12 +63356,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 30
-                      },
-                      {
-                        "field_bit": 3,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 39
                       }
                     ],
                     "hash_bit": 10,
@@ -63364,10 +63364,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 4,
+                        "field_bit": 0,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 16
+                        "hash_match_group_bit": 12
                       },
                       {
                         "field_bit": 12,
@@ -63406,10 +63406,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 5,
+                        "field_bit": 1,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 17
+                        "hash_match_group_bit": 13
                       },
                       {
                         "field_bit": 11,
@@ -63472,10 +63472,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 6,
+                        "field_bit": 2,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 18
+                        "hash_match_group_bit": 14
                       },
                       {
                         "field_bit": 10,
@@ -63520,10 +63520,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 7,
+                        "field_bit": 3,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 19
+                        "hash_match_group_bit": 15
                       },
                       {
                         "field_bit": 11,
@@ -63562,10 +63562,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 8,
+                        "field_bit": 4,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 20
+                        "hash_match_group_bit": 16
                       },
                       {
                         "field_bit": 11,
@@ -63610,10 +63610,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 9,
+                        "field_bit": 5,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 21
+                        "hash_match_group_bit": 17
                       },
                       {
                         "field_bit": 10,
@@ -63639,6 +63639,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 6,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 18
+                      },
                       {
                         "field_bit": 12,
                         "field_name": "mpls_label",
@@ -63674,12 +63680,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 30
-                      },
-                      {
-                        "field_bit": 0,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 36
                       }
                     ],
                     "hash_bit": 17,
@@ -63687,6 +63687,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 7,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 19
+                      },
                       {
                         "field_bit": 11,
                         "field_name": "mpls_label",
@@ -63722,12 +63728,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 31
-                      },
-                      {
-                        "field_bit": 1,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 37
                       }
                     ],
                     "hash_bit": 18,
@@ -63735,6 +63735,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 8,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 20
+                      },
                       {
                         "field_bit": 10,
                         "field_name": "mpls_label",
@@ -63776,12 +63782,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 31
-                      },
-                      {
-                        "field_bit": 2,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 38
                       }
                     ],
                     "hash_bit": 19,
@@ -63789,6 +63789,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 8,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 20
+                      },
                       {
                         "field_bit": 12,
                         "field_name": "mpls_label",
@@ -63806,12 +63812,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 26
-                      },
-                      {
-                        "field_bit": 2,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 38
                       }
                     ],
                     "hash_bit": 20,
@@ -63819,6 +63819,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 9,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 21
+                      },
                       {
                         "field_bit": 12,
                         "field_name": "mpls_label",
@@ -63848,12 +63854,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 31
-                      },
-                      {
-                        "field_bit": 3,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 39
                       }
                     ],
                     "hash_bit": 21,
@@ -63862,10 +63862,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 4,
+                        "field_bit": 0,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 16
+                        "hash_match_group_bit": 12
                       },
                       {
                         "field_bit": 11,
@@ -63898,10 +63898,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 5,
+                        "field_bit": 1,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 17
+                        "hash_match_group_bit": 13
                       },
                       {
                         "field_bit": 10,
@@ -63940,10 +63940,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 6,
+                        "field_bit": 2,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 18
+                        "hash_match_group_bit": 14
                       },
                       {
                         "field_bit": 12,
@@ -63970,10 +63970,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 7,
+                        "field_bit": 3,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 19
+                        "hash_match_group_bit": 15
                       },
                       {
                         "field_bit": 10,
@@ -64006,10 +64006,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 8,
+                        "field_bit": 4,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 20
+                        "hash_match_group_bit": 16
                       },
                       {
                         "field_bit": 11,
@@ -64030,10 +64030,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 9,
+                        "field_bit": 5,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 21
+                        "hash_match_group_bit": 17
                       },
                       {
                         "field_bit": 13,
@@ -64072,6 +64072,12 @@
                   {
                     "bits_to_xor": [
                       {
+                        "field_bit": 6,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 18
+                      },
+                      {
                         "field_bit": 10,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
@@ -64106,12 +64112,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 30
-                      },
-                      {
-                        "field_bit": 0,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 36
                       }
                     ],
                     "hash_bit": 28,
@@ -64119,6 +64119,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 7,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 19
+                      },
                       {
                         "field_bit": 10,
                         "field_name": "mpls_label",
@@ -64142,12 +64148,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 27
-                      },
-                      {
-                        "field_bit": 1,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 37
                       }
                     ],
                     "hash_bit": 29,
@@ -64155,6 +64155,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 7,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 19
+                      },
                       {
                         "field_bit": 15,
                         "field_name": "mpls_label",
@@ -64172,12 +64178,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 30
-                      },
-                      {
-                        "field_bit": 1,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 37
                       }
                     ],
                     "hash_bit": 30,
@@ -64185,6 +64185,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 8,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 20
+                      },
                       {
                         "field_bit": 10,
                         "field_name": "mpls_label",
@@ -64208,12 +64214,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 31
-                      },
-                      {
-                        "field_bit": 2,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 38
                       }
                     ],
                     "hash_bit": 31,
@@ -64221,6 +64221,12 @@
                   },
                   {
                     "bits_to_xor": [
+                      {
+                        "field_bit": 9,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 21
+                      },
                       {
                         "field_bit": 11,
                         "field_name": "mpls_label",
@@ -64262,12 +64268,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 30
-                      },
-                      {
-                        "field_bit": 3,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 39
                       }
                     ],
                     "hash_bit": 32,
@@ -64276,10 +64276,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 4,
+                        "field_bit": 0,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 16
+                        "hash_match_group_bit": 12
                       },
                       {
                         "field_bit": 10,
@@ -64318,10 +64318,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 5,
+                        "field_bit": 1,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 17
+                        "hash_match_group_bit": 13
                       },
                       {
                         "field_bit": 13,
@@ -64342,10 +64342,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 6,
+                        "field_bit": 2,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 18
+                        "hash_match_group_bit": 14
                       },
                       {
                         "field_bit": 12,
@@ -64378,10 +64378,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 7,
+                        "field_bit": 3,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 19
+                        "hash_match_group_bit": 15
                       },
                       {
                         "field_bit": 14,
@@ -64414,10 +64414,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 8,
+                        "field_bit": 4,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 20
+                        "hash_match_group_bit": 16
                       },
                       {
                         "field_bit": 12,
@@ -64450,10 +64450,10 @@
                   {
                     "bits_to_xor": [
                       {
-                        "field_bit": 9,
+                        "field_bit": 5,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
-                        "hash_match_group_bit": 21
+                        "hash_match_group_bit": 17
                       },
                       {
                         "field_bit": 10,
@@ -64504,6 +64504,12 @@
                   {
                     "bits_to_xor": [
                       {
+                        "field_bit": 6,
+                        "field_name": "mpls_label",
+                        "hash_match_group": 0,
+                        "hash_match_group_bit": 18
+                      },
+                      {
                         "field_bit": 11,
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
@@ -64514,12 +64520,6 @@
                         "field_name": "mpls_label",
                         "hash_match_group": 0,
                         "hash_match_group_bit": 29
-                      },
-                      {
-                        "field_bit": 0,
-                        "field_name": "mpls_label",
-                        "hash_match_group": 0,
-                        "hash_match_group_bit": 36
                       }
                     ],
                     "hash_bit": 39,
@@ -64528,16 +64528,16 @@
                 ],
                 "hash_function_number": 0,
                 "ghost_bit_to_hash_bit": [
-                  [ 6, 17, 28, 39 ],
-                  [ 7, 18, 29, 30 ],
-                  [ 8, 19, 20, 31 ],
-                  [ 9, 10, 21, 32 ],
                   [ 0, 11, 22, 33 ],
                   [ 1, 12, 23, 34 ],
                   [ 2, 13, 24, 35 ],
                   [ 3, 14, 25, 36 ],
                   [ 4, 15, 26, 37 ],
-                  [ 5, 16, 27, 38 ]
+                  [ 5, 16, 27, 38 ],
+                  [ 6, 17, 28, 39 ],
+                  [ 7, 18, 29, 30 ],
+                  [ 8, 19, 20, 31 ],
+                  [ 9, 10, 21, 32 ]
                 ],
                 "ghost_bit_info": [
                   { "field_name": "mpls_label", "bit_in_match_spec": 0 },
@@ -91887,14 +91887,14 @@
                 "action_handle": 536870943,
                 "table_name": "--END_OF_PIPELINE--",
                 "next_table": 0,
-                "next_table_full": 113,
+                "next_table_full": 128,
                 "vliw_instruction": 0,
                 "vliw_instruction_full": 65,
                 "next_tables": [
                   {
                     "next_table_name": "tbl_act_3",
-                    "next_table_logical_id": 1,
-                    "next_table_stage_no": 7
+                    "next_table_logical_id": 0,
+                    "next_table_stage_no": 8
                   }
                 ],
                 "immediate_fields": [
@@ -92447,6 +92447,20 @@
               "dst": { "type": "phv", "name": "fabric_metadata.bng.line_id" },
               "dst_mask": { "type": "immediate", "name": "0" },
               "src1": { "type": "action_param", "name": "line_id" }
+            },
+            {
+              "name": "ModifyFieldPrimitive",
+              "operation": "set",
+              "dst": { "type": "phv", "name": "fabric_metadata.bng.pppoe_session_id" },
+              "dst_mask": { "type": "immediate", "name": "65535" },
+              "src1": { "type": "immediate", "name": "0" }
+            },
+            {
+              "name": "ModifyFieldPrimitive",
+              "operation": "set",
+              "dst": { "type": "phv", "name": "fabric_metadata.bng.type" },
+              "dst_mask": { "type": "immediate", "name": "3" },
+              "src1": { "type": "immediate", "name": "0" }
             }
           ],
           "indirect_resources": [],
@@ -92485,12 +92499,12 @@
       "match_attributes": {
         "stage_tables": [
           {
-            "stage_number": 7,
+            "stage_number": 8,
             "size": 0,
             "stage_table_type": "ternary_match",
-            "logical_table_id": 1,
+            "logical_table_id": 0,
             "has_attached_gateway": true,
-            "default_next_table": 128,
+            "default_next_table": 129,
             "pack_format": [
               {
                 "table_word_width": 0,
@@ -92525,9 +92539,9 @@
               }
             ],
             "memory_resource_allocation": null,
-            "result_physical_buses": [ 0 ],
+            "result_physical_buses": [ 3 ],
             "ternary_indirection_stage_table": {
-              "stage_number": 7,
+              "stage_number": 8,
               "stage_table_type": "ternary_indirection",
               "size": 0,
               "pack_format": [
@@ -93347,13 +93361,13 @@
                   "action_handle": 536870944,
                   "table_name": "--END_OF_PIPELINE--",
                   "next_table": 0,
-                  "next_table_full": 128,
+                  "next_table_full": 129,
                   "vliw_instruction": 1,
-                  "vliw_instruction_full": 66,
+                  "vliw_instruction_full": 65,
                   "next_tables": [
                     {
                       "next_table_name": "FabricIngress.bng_ingress.upstream.t_pppoe_cp",
-                      "next_table_logical_id": 0,
+                      "next_table_logical_id": 1,
                       "next_table_stage_no": 8
                     }
                   ],
@@ -93419,15 +93433,15 @@
       "table_type": "condition",
       "stage_tables": [
         {
-          "next_tables": { "false": 130, "true": 113 },
+          "next_tables": { "false": 131, "true": 128 },
           "memory_resource_allocation": { "memory_unit": 14, "memory_type": "gateway", "payload_buses": [] },
           "pack_format": [],
           "next_table_names": {
             "false": "FabricIngress.bng_ingress.downstream.t_line_session_map",
             "true": "tbl_act_3"
           },
-          "logical_table_id": 1,
-          "stage_number": 7,
+          "logical_table_id": 0,
+          "stage_number": 8,
           "stage_table_type": "gateway",
           "size": 0
         }
@@ -93448,9 +93462,9 @@
             "stage_number": 8,
             "size": 512,
             "stage_table_type": "ternary_match",
-            "logical_table_id": 0,
+            "logical_table_id": 1,
             "has_attached_gateway": false,
-            "default_next_table": 129,
+            "default_next_table": 130,
             "pack_format": [
               {
                 "table_word_width": 47,
@@ -93570,11 +93584,11 @@
                   "next_table": 0,
                   "next_table_full": 145,
                   "vliw_instruction": 0,
-                  "vliw_instruction_full": 65,
+                  "vliw_instruction_full": 66,
                   "next_tables": [
                     {
                       "next_table_name": "tbl_act_4",
-                      "next_table_logical_id": 1,
+                      "next_table_logical_id": 2,
                       "next_table_stage_no": 8
                     }
                   ],
@@ -93591,7 +93605,7 @@
                   "number_memory_units_per_table_word": 0
                 }
               ],
-              "logical_table_id": 0,
+              "logical_table_id": 1,
               "stage_number": 8,
               "stage_table_type": "ternary_indirection",
               "size": 0
@@ -93736,7 +93750,7 @@
           "stage_number": 8,
           "size": 2048,
           "stage_table_type": "statistics",
-          "logical_table_id": 0,
+          "logical_table_id": 1,
           "pack_format": [
             {
               "table_word_width": 128,
@@ -93771,7 +93785,7 @@
           "stage_number": 8,
           "size": 8192,
           "stage_table_type": "action_data",
-          "logical_table_id": 0,
+          "logical_table_id": 1,
           "pack_format": [
             {
               "memory_word_width": 128,
@@ -94149,7 +94163,7 @@
             "stage_number": 8,
             "size": 0,
             "stage_table_type": "ternary_match",
-            "logical_table_id": 1,
+            "logical_table_id": 2,
             "has_attached_gateway": false,
             "default_next_table": 145,
             "pack_format": [
@@ -95010,7 +95024,7 @@
                   "next_table": 0,
                   "next_table_full": 145,
                   "vliw_instruction": 0,
-                  "vliw_instruction_full": 66,
+                  "vliw_instruction_full": 67,
                   "next_tables": [
                     {
                       "next_table_name": "",
@@ -95116,7 +95130,7 @@
             "stage_number": 8,
             "size": 4096,
             "stage_table_type": "hash_match",
-            "logical_table_id": 2,
+            "logical_table_id": 3,
             "has_attached_gateway": false,
             "default_next_table": 255,
             "hash_functions": [
@@ -98457,11 +98471,11 @@
                 "next_table": 0,
                 "next_table_full": 255,
                 "vliw_instruction": 0,
-                "vliw_instruction_full": 67,
+                "vliw_instruction_full": 68,
                 "next_tables": [
                   {
                     "next_table_name": "FabricIngress.bng_ingress.downstream.t_qos_v4",
-                    "next_table_logical_id": 3,
+                    "next_table_logical_id": 4,
                     "next_table_stage_no": 8
                   }
                 ],
@@ -98482,11 +98496,11 @@
                 "next_table": 0,
                 "next_table_full": 255,
                 "vliw_instruction": 1,
-                "vliw_instruction_full": 68,
+                "vliw_instruction_full": 70,
                 "next_tables": [
                   {
                     "next_table_name": "FabricIngress.bng_ingress.downstream.t_qos_v4",
-                    "next_table_logical_id": 3,
+                    "next_table_logical_id": 4,
                     "next_table_stage_no": 8
                   }
                 ],
@@ -99322,7 +99336,7 @@
           "stage_number": 8,
           "size": 2048,
           "stage_table_type": "statistics",
-          "logical_table_id": 2,
+          "logical_table_id": 3,
           "pack_format": [
             {
               "table_word_width": 128,
@@ -99358,7 +99372,7 @@
             "stage_number": 8,
             "size": 512,
             "stage_table_type": "ternary_match",
-            "logical_table_id": 3,
+            "logical_table_id": 4,
             "has_attached_gateway": true,
             "default_next_table": 255,
             "pack_format": [
@@ -100333,13 +100347,13 @@
                   "action_handle": 536870954,
                   "table_name": "--END_OF_PIPELINE--",
                   "next_table": 1,
-                  "next_table_full": 132,
+                  "next_table_full": 133,
                   "vliw_instruction": 1,
                   "vliw_instruction_full": 64,
                   "next_tables": [
                     {
                       "next_table_name": "tbl_act_6",
-                      "next_table_logical_id": 4,
+                      "next_table_logical_id": 5,
                       "next_table_stage_no": 8
                     }
                   ],
@@ -100484,14 +100498,14 @@
       "table_type": "condition",
       "stage_tables": [
         {
-          "next_tables": { "false": 255, "true": 131 },
+          "next_tables": { "false": 255, "true": 132 },
           "memory_resource_allocation": { "memory_unit": 12, "memory_type": "gateway", "payload_buses": [] },
           "pack_format": [],
           "next_table_names": {
             "false": "END",
             "true": "FabricIngress.bng_ingress.downstream.t_qos_v4"
           },
-          "logical_table_id": 3,
+          "logical_table_id": 4,
           "stage_number": 8,
           "stage_table_type": "gateway",
           "size": 0
@@ -100513,7 +100527,7 @@
             "stage_number": 8,
             "size": 1,
             "stage_table_type": "match_with_no_key",
-            "logical_table_id": 4,
+            "logical_table_id": 5,
             "has_attached_gateway": true,
             "memory_resource_allocation": null,
             "default_next_table": 255,
@@ -100615,7 +100629,7 @@
           "memory_resource_allocation": { "memory_unit": 0, "memory_type": "gateway", "payload_buses": [] },
           "pack_format": [],
           "next_table_names": { "false": "END", "true": "END" },
-          "logical_table_id": 4,
+          "logical_table_id": 5,
           "stage_number": 8,
           "stage_table_type": "gateway",
           "size": 0
@@ -100636,7 +100650,7 @@
           "stage_number": 8,
           "size": 1024,
           "stage_table_type": "meter",
-          "logical_table_id": 4,
+          "logical_table_id": 5,
           "pack_format": [
             {
               "table_word_width": 128,
@@ -110989,7 +111003,7 @@
     {
       "fully_qualified_name": "mau[2].dp.match_input_xbar_din_power_ctl",
       "name": "stage_2_match_input_xbar_din_power_ctl",
-      "value": "0000001200000000000000000000000000000016000000300000000600000000000000000000000c00000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      "value": "0000001200000000000000000000000000000010000000310000000600000000000000000000000c00000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
     },
     {
       "fully_qualified_name": "mau[2].dp.xbar_hash.hash.hash_seed",
@@ -111009,7 +111023,7 @@
     {
       "fully_qualified_name": "mau[3].dp.match_input_xbar_din_power_ctl",
       "name": "stage_3_match_input_xbar_din_power_ctl",
-      "value": "0000001000000000000000000000000000000000000000000000000000000000000000080000000000000022000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      "value": "0000001000000000000000000000000000000000000000000000000000000000000000000000000100000022000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
     },
     {
       "fully_qualified_name": "mau[3].dp.xbar_hash.hash.hash_seed",
@@ -111079,7 +111093,7 @@
     {
       "fully_qualified_name": "mau[7].dp.match_input_xbar_din_power_ctl",
       "name": "stage_7_match_input_xbar_din_power_ctl",
-      "value": "0000008000000001000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      "value": "0000008000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
     },
     {
       "fully_qualified_name": "mau[7].dp.xbar_hash.hash.hash_seed",
@@ -111252,6 +111266,6 @@
       ]
     }
   ],
-  "run_id": "64879950bec43805",
+  "run_id": "499a5befda263390",
   "driver_options": { "hash_parity_enabled": false, "high_availability_enabled": true }
 }
