@@ -58,12 +58,14 @@ function do_p4c() {
   echo "*** Compiling profile '${PROFILE}' for ${pltf} platform..."
   echo "*** Output in ${P4C_OUT}/${pltf}"
   pp_flags="-DCPU_PORT=${cpu_port}"
+  p4c_flags="--auto-init-metadata"
   mkdir -p ${P4C_OUT}/${pltf}
   (
     set -x
     $P4C_CMD --arch v1model -g  --create-graphs --verbose 2 \
       -o ${P4C_OUT}/${pltf} -I ${P4_SRC_DIR} \
       ${pp_flags} ${OTHER_PP_FLAGS} \
+      ${p4c_flags} \
       --p4runtime-files ${P4C_OUT}/${pltf}/p4info.txt \
       ${DIR}/fabric-tofino.p4
   )
