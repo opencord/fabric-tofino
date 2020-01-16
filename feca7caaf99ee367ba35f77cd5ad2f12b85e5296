@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c9f0a953_6d443e2b",
+        "filename": "src/main/p4/build.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000381
+      },
+      "writtenOn": "2020-01-16T19:14:34Z",
+      "side": 1,
+      "message": "If ptf tests work fine with 9.0.0, let\u0027s remove this if condition and let\u0027s agree on 9.0.0 being the minimum required version... otherwise I can see the troubles of updating to SDE 9.0.1+ and forgetting to update this condition.",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 2
+      },
+      "revId": "feca7caaf99ee367ba35f77cd5ad2f12b85e5296",
+      "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
+      "unresolved": false
+    }
+  ]
+}
