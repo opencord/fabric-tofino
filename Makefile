@@ -28,7 +28,7 @@ fabric-simple:
 	@${p4-build} fabric-simple "-DWITH_SIMPLE_NEXT"
 
 fabric-bng:
-	@${p4-build} fabric-bng "-DWITH_BNG -DWITH_DOUBLE_VLAN_TERMINATION -DWITHOUT_XCONNECT"
+	@${p4-build} fabric-bng "-DWITH_BNG -DWITHOUT_XCONNECT"
 
 fabric-int:
 	@${p4-build} fabric-int "-DWITH_INT_SOURCE -DWITH_INT_TRANSIT"
