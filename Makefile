@@ -12,6 +12,7 @@ onos_url := http://${ONOS_HOST}:8181/onos
 onos_curl := curl --fail -sSL --user onos:rocks --noproxy localhost
 
 pipeconf_app_name := org.opencord.fabric-tofino
+pipeconf_oar_file := $(shell ls -1 ${curr_dir}/target/fabric-tofino-*.oar)
 
 p4-build := ./src/main/p4/build.sh
 
@@ -61,7 +62,7 @@ pipeconf-install:
 	$(info *** Installing and activating pipeconf app in ONOS at ${ONOS_HOST}...)
 	${onos_curl} -X POST -HContent-Type:application/octet-stream \
 		'${onos_url}/v1/applications?activate=true' \
-		--data-binary @target/fabric-tofino-*.oar
+		--data-binary @${pipeconf_oar_file}
 	@echo
 
 pipeconf-uninstall:
