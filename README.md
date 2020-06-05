@@ -17,6 +17,8 @@ To use ONOS to control a Tofino-enabled switch, you will need to run the
 * Docker (to run the build scripts without worrying about dependencies)
 * cURL (to interact with the ONOS REST APIs)
 
+There are known issues with Barefoot SDE 9.2.0.
+
 ## Steps to build Tofino-enabled fabric.p4 pipeconfs
 
 ONOS uses "pipeconfs" to deploy and manage a given P4 program on a device.
