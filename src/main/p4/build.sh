@@ -35,6 +35,8 @@ OTHER_PP_FLAGS=$2
 # PWD is the directory where this script is called from (should be the root of
 # this repo).
 P4C_OUT=${PWD}/tmp/${PROFILE}
+# Prevent the creation by docker run
+mkdir -p ${P4C_OUT}
 
 # DIR is this file directory.
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -42,11 +44,11 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Where the compiler output should be placed to be included in the pipeconf.
 DEST_DIR=${DIR}/../resources/p4c-out/${PROFILE}/tofino
 
-# If SDE_DOCKER_IMG env is set, use containerized version of the compiler
-if [ -z "${SDE_DOCKER_IMG}" ]; then
+# If P4C_DOCKER_IMG env is set, use containerized version of the compiler
+if [ -z "${P4C_DOCKER_IMG}" ]; then
   P4C_CMD="bf-p4c"
 else
-  P4C_CMD="docker run --rm -v ${P4C_OUT}:${P4C_OUT} -v ${P4_SRC_DIR}:${P4_SRC_DIR} -v ${DIR}:${DIR} -w ${DIR} ${SDE_DOCKER_IMG} bf-p4c"
+  P4C_CMD="docker run --rm -v ${P4C_OUT}:${P4C_OUT} -v ${P4_SRC_DIR}:${P4_SRC_DIR} -v ${DIR}:${DIR} -w ${DIR} ${P4C_DOCKER_IMG} bf-p4c"
 fi
 
 SDE_VER=$( ${P4C_CMD} --version | cut -d' ' -f2 )
