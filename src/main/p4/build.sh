@@ -35,6 +35,8 @@ OTHER_PP_FLAGS=$2
 # PWD is the directory where this script is called from (should be the root of
 # this repo).
 P4C_OUT=${PWD}/tmp/${PROFILE}
+# Prevent the creation by docker run
+mkdir -p ${P4C_OUT}
 
 # DIR is this file directory.
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
