@@ -46,6 +46,30 @@
       "revId": "f1bb934f45159474cd17f724526b6eebf847123e",
       "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ba439a1_5bc64cdc",
+        "filename": "src/main/p4/build.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000381
+      },
+      "writtenOn": "2020-06-10T17:58:35Z",
+      "side": 1,
+      "message": "I\u0027d prefer if you can revert it. We use the SDE_DOCKER_IMG env in other places, and I prefer the idea that we can pass either the full SDE image or a slimmer one with just p4c. SDE_DOCKER_IMG seems a good name for both cases.",
+      "parentUuid": "35dc7afe_103522bd",
+      "range": {
+        "startLine": 48,
+        "startChar": 11,
+        "endLine": 48,
+        "endChar": 25
+      },
+      "revId": "f1bb934f45159474cd17f724526b6eebf847123e",
+      "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
+      "unresolved": false
     }
   ]
 }
