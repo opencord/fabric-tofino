@@ -22,6 +22,30 @@
       "revId": "f1bb934f45159474cd17f724526b6eebf847123e",
       "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "35dc7afe_103522bd",
+        "filename": "src/main/p4/build.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2020-06-10T17:07:26Z",
+      "side": 1,
+      "message": "I can update the README. I pushed this change because I wanted to test everything in my script - it is still a wip. \n\nDo you prefer to revert back or do you want me to update the readme as well ?",
+      "parentUuid": "e2253f68_fcddd9a9",
+      "range": {
+        "startLine": 48,
+        "startChar": 11,
+        "endLine": 48,
+        "endChar": 25
+      },
+      "revId": "f1bb934f45159474cd17f724526b6eebf847123e",
+      "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
+      "unresolved": false
     }
   ]
 }
