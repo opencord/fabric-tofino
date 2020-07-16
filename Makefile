@@ -1,5 +1,6 @@
 PROFILES ?= all
 ONOS_HOST ?= localhost
+P4CFLAGS ?=
 
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
 curr_dir := $(patsubst %/,%,$(dir $(mkfile_path)))
@@ -23,22 +24,22 @@ build: clean $(PROFILES) pipeconf p4-changelog
 all: fabric fabric-bng fabric-spgw fabric-int fabric-spgw-int
 
 fabric:
-	@${p4-build} fabric ""
+	@${p4-build} fabric $(P4CFLAGS)
 
 fabric-simple:
-	@${p4-build} fabric-simple "-DWITH_SIMPLE_NEXT"
+	@${p4-build} fabric-simple -DWITH_SIMPLE_NEXT $(P4CFLAGS)
 
 fabric-bng:
-	@${p4-build} fabric-bng "-DWITH_BNG -DWITHOUT_XCONNECT"
+	@${p4-build} fabric-bng -DWITH_BNG -DWITHOUT_XCONNECT $(P4CFLAGS)
 
 fabric-int:
-	@${p4-build} fabric-int "-DWITH_INT_SOURCE -DWITH_INT_TRANSIT"
+	@${p4-build} fabric-int -DWITH_INT_SOURCE -DWITH_INT_TRANSIT $(P4CFLAGS)
 
 fabric-spgw:
-	@${p4-build} fabric-spgw "-DWITH_SPGW"
+	@${p4-build} fabric-spgw -DWITH_SPGW $(P4CFLAGS)
 
 fabric-spgw-int:
-	@${p4-build} fabric-spgw-int "-DWITH_SPGW -DWITH_INT_SOURCE -DWITH_INT_TRANSIT"
+	@${p4-build} fabric-spgw-int -DWITH_SPGW -DWITH_INT_SOURCE -DWITH_INT_TRANSIT $(P4CFLAGS)
 
 p4-changelog:
 	./src/main/p4/gen_changelog.sh > P4_CHANGELOG

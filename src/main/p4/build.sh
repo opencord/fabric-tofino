@@ -30,13 +30,13 @@ fi
 set -e
 
 PROFILE=$1
-OTHER_PP_FLAGS=$2
+P4CFLAGS=${*:2}
 
 # PWD is the directory where this script is called from (should be the root of
 # this repo).
 P4C_OUT=${PWD}/tmp/${PROFILE}
 # Prevent the creation by docker run
-mkdir -p ${P4C_OUT}
+mkdir -p "${P4C_OUT}"
 
 # DIR is this file directory.
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -66,7 +66,7 @@ function do_p4c() {
     set -x
     $P4C_CMD --arch v1model -g  --create-graphs --verbose 2 \
       -o ${P4C_OUT}/${pltf} -I ${P4_SRC_DIR} \
-      ${pp_flags} ${OTHER_PP_FLAGS} \
+      ${pp_flags} ${P4CFLAGS} \
       ${p4c_flags} \
       --p4runtime-files ${P4C_OUT}/${pltf}/p4info.txt \
       ${DIR}/fabric-tofino.p4

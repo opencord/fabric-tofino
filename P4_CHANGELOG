@@ -1,5 +1,7 @@
 # fabric.p4 changes included in this release (from ONOS repository)
 
+d35e8a6a04 Allow building fabric.p4 with custom S1U_SGW_PREFIX
+1d4756928d Rewrite the SPGW P4 pipeline.
 6085585ef7 Fixes to fabric.p4 pipeline
 dd0568b367 Small fixes and improvements on fabric.p4 - setting s_tag and c_tag for BNG as early as possible in the pipeline - ingress_port_vlan was matching on inner_vlan_tag but that field could be not present
 f4d1bc6eec Added bytes in BNG upstream counters
