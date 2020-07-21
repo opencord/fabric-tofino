@@ -2,3 +2,5 @@
 target/
 tmp/
 .idea/
+mvn_settings.xml
+dependencies.xml
