@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "77c9c38d_539b413d",
+        "filename": "P4_CHANGELOG",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000381
+      },
+      "writtenOn": "2021-01-04T20:45:24Z",
+      "side": 0,
+      "message": "This change is still unmerged: https://gerrit.onosproject.org/c/onos/+/24234\nPlease run again the build after merging all onos changes, so we get the right commit IDs in this file.",
+      "revId": "e1cf4551b4ab74bb82a7cecf19d197698ffbc1cb",
+      "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
+      "unresolved": true
+    }
+  ]
+}
