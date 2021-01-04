@@ -1,5 +1,12 @@
 # fabric.p4 changes included in this release (from ONOS repository)
 
+3144060d46 [AETHER-1032] Backport AETHER-538 to fabric.p4
+35e4d196eb Update SPGW p4 namespace to match fabric-tna
+4d1d67fa3a Backport fabric-tna dbuf support to v1model
+ee90f815ea Bridged packets should retain the same TTL
+b27024ffa1 Fix minor bugs in INT sink
+bfe4355bde Remove UE address from uplink PDRs
+c9fce63054 Backport fabric-spgw TNA changes to v1model
 d35e8a6a04 Allow building fabric.p4 with custom S1U_SGW_PREFIX
 1d4756928d Rewrite the SPGW P4 pipeline.
 6085585ef7 Fixes to fabric.p4 pipeline
