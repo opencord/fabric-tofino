@@ -16,6 +16,24 @@
       "revId": "e1cf4551b4ab74bb82a7cecf19d197698ffbc1cb",
       "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "94522e1f_50f1fe4a",
+        "filename": "P4_CHANGELOG",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000042
+      },
+      "writtenOn": "2021-01-05T10:52:30Z",
+      "side": 0,
+      "message": "sounds good",
+      "parentUuid": "77c9c38d_539b413d",
+      "revId": "e1cf4551b4ab74bb82a7cecf19d197698ffbc1cb",
+      "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
+      "unresolved": true
     }
   ]
 }
