@@ -34,6 +34,24 @@
       "revId": "484c72c1cac9614c81fffbf2f550a3a4f8eb9115",
       "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9ae4d844_4d35a82b",
+        "filename": "P4_CHANGELOG",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000381
+      },
+      "writtenOn": "2021-01-06T22:37:03Z",
+      "side": 1,
+      "message": "We haven\u0027t updated fabric-tofino in a long time, your change is bringing the compiled artifacts of all the fabric.p4 changes up to the tip of onos-2.2.",
+      "parentUuid": "b66fea62_b814b956",
+      "revId": "484c72c1cac9614c81fffbf2f550a3a4f8eb9115",
+      "serverId": "2a2bfe1b-c5c2-48ed-9ac8-16438ab24388",
+      "unresolved": false
     }
   ]
 }
