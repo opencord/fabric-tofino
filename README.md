@@ -1,3 +1,13 @@
+# DEPRECATED
+
+This project is no longer maintained. P4 development for Tofino is now part of
+the SD-Fabric project, including a new version of fabric.p4 based on the Tofino
+Native Architecture.
+
+For more information: <https://wiki.opennetworking.org/x/HABGKQ>
+
+***
+
 # ONOS Fabric Pipeconf for Tofino
 
 This repository contains instructions and scripts to compile and use
